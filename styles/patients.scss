@@ -61,7 +61,6 @@ form{
     text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     border: none;
     border-radius: 10px;
-
   }
   .ajouter:hover,.modif:hover{
     background-color: #3c68e2;
@@ -76,7 +75,62 @@ form{
     }
   }
 }
-
+.listPatients{
+  width: 100%;
+  table{
+    width: fit-content;
+    margin: auto;
+      padding: 15px;
+      width: fit-content;
+      tr{
+        th{
+          background-color: $primary_color;
+          padding: 5px 15px;
+          font-size: 16px;
+          text-align: left;
+          border-radius: 10px;
+          padding-left: 10px;
+        }
+        td{
+          font-size: 14px;
+          padding: 5px 15px ;
+        }
+        .edit{
+          .sup,.mdf{
+            border-radius: 50%;
+            text-align: center;
+            text-decoration: none;
+            color: $white;
+            display: block;
+            button{
+              width: 50px;
+              height: 50px;
+              border: none;
+              color: $white;
+              border-radius: 10px;
+              cursor: pointer;
+            }
+          }
+          .sup{
+            
+            margin-bottom: 5px;
+            button{
+              background-color: #E23C3C;
+            }
+          }
+          .mdf{
+            margin-top: 5px;
+            button{
+              background-color: #3c68e2;
+              
+            }
+          }
+        }
+      }
+    
+      
+  }
+} 
 @media screen and (max-width:600px) {
   form{
     .field{

@@ -412,6 +412,57 @@ form .field input {
   color: #FCECF4;
 }
 
+.listPatients {
+  width: 100%;
+}
+.listPatients table {
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  margin: auto;
+  padding: 15px;
+  width: fit-content;
+}
+.listPatients table tr th {
+  background-color: #425AE5;
+  padding: 5px 15px;
+  font-size: 16px;
+  text-align: left;
+  border-radius: 10px;
+  padding-left: 10px;
+}
+.listPatients table tr td {
+  font-size: 14px;
+  padding: 5px 15px;
+}
+.listPatients table tr .edit .sup, .listPatients table tr .edit .mdf {
+  border-radius: 50%;
+  text-align: center;
+  text-decoration: none;
+  color: #ffffff;
+  display: block;
+}
+.listPatients table tr .edit .sup button, .listPatients table tr .edit .mdf button {
+  width: 50px;
+  height: 50px;
+  border: none;
+  color: #ffffff;
+  border-radius: 10px;
+  cursor: pointer;
+}
+.listPatients table tr .edit .sup {
+  margin-bottom: 5px;
+}
+.listPatients table tr .edit .sup button {
+  background-color: #E23C3C;
+}
+.listPatients table tr .edit .mdf {
+  margin-top: 5px;
+}
+.listPatients table tr .edit .mdf button {
+  background-color: #3c68e2;
+}
+
 @media screen and (max-width: 600px) {
   form .field {
     -webkit-box-orient: vertical;
